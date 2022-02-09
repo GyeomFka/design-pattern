@@ -1,10 +1,10 @@
-package _12_proxy._01_before;
+package whiteship._12_proxy._02_after;
 
 public class Client {
     public static void main(String[] args) throws InterruptedException {
         //GameService gameService = new GameService();
 //        GameService gameService = new GameServiceProxy();
-        GameService gameService = new GameService();
+        GameService gameService = new GameServiceProxy_interface(new DefaultGameService());
         gameService.startGame();
         /*
         * 조건 1. 게임 서비스를 시작-끝 시간 확인 하고싶지만, 해당 객체를 건들 수가 없다.

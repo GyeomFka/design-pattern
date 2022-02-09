@@ -1,4 +1,4 @@
-package _12_proxy._02_after;
+package whiteship._12_proxy._02_after;
 
 public class GameServiceProxy_interface implements GameService{
 

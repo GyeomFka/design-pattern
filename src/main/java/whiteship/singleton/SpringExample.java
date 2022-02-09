@@ -1,4 +1,4 @@
-package s2.singleton;
+package whiteship.singleton;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

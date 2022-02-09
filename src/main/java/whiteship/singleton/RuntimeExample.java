@@ -1,4 +1,4 @@
-package s2.singleton;
+package whiteship.singleton;
 
 public class RuntimeExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package s4.proxy;
+package whiteship.proxy;
 
 public class DefaultGameService implements GameService{
 

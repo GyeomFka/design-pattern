@@ -1,4 +1,4 @@
-package s1.singleton;
+package whiteship.singleton;
 
 public class SettingsByDoubleChecked {
 
